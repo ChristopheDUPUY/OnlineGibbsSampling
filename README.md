@@ -22,8 +22,8 @@ https://hal.inria.fr/hal-01284900
 How to use:
 -----------
 
-python2.7 main.py -n \<name\> -K <K> -a <algo> -D <kappa> -B <batch_size> -c <data_is_cut> -p
-<cut_size> -T <nb_docs> -V <vocabulary> -w <write_topcis> -C <compute_perpl> -l <logfile>
+python2.7 main.py -n \<name\> -K \<K\> -a \<algo\> -D \<kappa\> -B \<batch_size\> -c \<data_is_cut\> -p
+\<cut_size\> -T \<nb_docs\> -V \<vocabulary\> -w \<write_topcis\> -C \<compute_perpl\> -l \<logfile\>
 
      - <name>         : name of the database,
      - <K>            : number of topics inferred,
@@ -41,7 +41,7 @@ python2.7 main.py -n \<name\> -K <K> -a <algo> -D <kappa> -B <batch_size> -c <da
 
 The data files must be formatted as follows:
    - vocab.txt            : each line is a word of the vocabulary
-   - name+'_ids_B0.txt'   : Part of the dataset (this format corresponds to data_is_cut=1). Each line of this file is document, represented as integers separated by a space; 'n1 n2 n3 n4...'. See data/ for examples.
+   - name+'_ids_B0.txt'   : Part of the dataset (this format corresponds to data_is_cut=1). Each line of this file is document, represented as integers separated by a space; 'n1 n2 n3 n4...'. See `data/` for examples.
    - name+'_ids.txt'      : Entire dataset (this format corresponds to data_is_cut=0). Same representation as above.
    - name+'_ids_test.txt' : Test set of documents for evaluation. Same representation as above.
 
