@@ -4,13 +4,17 @@ Christophe Dupuy and Francis Bach, 2017
 Contact:
 --------
 Christophe Dupuy
+
 Francis Bach
 
 Citation:
 ---------
 Online but Accurate Inference for Latent Variable Models with Local Gibbs Sampling
+
 Christophe Dupuy and Francis Bach, JMLR 2017
+
 http://www.jmlr.org/papers/volume18/16-374/16-374.pdf
+
 https://hal.inria.fr/hal-01284900
 
 
@@ -47,6 +51,8 @@ Example of use:
 Run G-OEM, 100 topics inferred on a subset of New York Times dataset from UCI (https://archive.ics.uci.edu/ml/datasets/Bag+of+Words)
 
 python2.7 main.py -n NYT -K 100 -a G-OEM -D 0.5 -B 100 -c 1 -p 10000 -T 20000 -V 44228 -w 1-C 0
+
 or 
+
 python2.7 main.py -n NYT -K 100 -a G-OEM -D 0.5 -B 100 -c 1 -p 10000 -T 20000 -V 44228 -w 1 -C 0 -l ./test.log
 
