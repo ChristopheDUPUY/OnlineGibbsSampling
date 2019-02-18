@@ -22,7 +22,8 @@ https://hal.inria.fr/hal-01284900
 How to use:
 -----------
 
-python2.7 main.py -n <name> -K <K> -a <algo> -D <kappa> -B <batch_size> -c <data_is_cut> -p <cut_size> -T <nb_docs> -V <vocabulary> -w <write_topcis> -C <compute_perpl> -l <logfile>
+python2.7 main.py -n <name> -K <K> -a <algo> -D <kappa> -B <batch_size> -c <data_is_cut> -p
+<cut_size> -T <nb_docs> -V <vocabulary> -w <write_topcis> -C <compute_perpl> -l <logfile>
 
      - <name>         : name of the database,
      - <K>            : number of topics inferred,
